@@ -1,0 +1,20 @@
+
+body{font-family: 'Poppins', sans-serif;}
+p{color:black;}
+.heading{ text-align: center; color: black;}
+.heading2{ text-align: center; color: black;}
+.name{background: whitesmoke;}
+
+.star{background-color: black;}
+.star p{color: black;}
+.card-img{width: 260px;
+    height: 220px;}
+
+
+.f1{color:greenyellow;}
+.f2{color: black;}
+#f3{color: red;}
+.f3{color: blue;}
+li{color: blue;}
+thead{color:white;}
+.a{text-align: center;}

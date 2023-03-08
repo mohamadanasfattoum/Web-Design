@@ -1,109 +1,139 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web bage design
-        تصميم المواقع</title>
-    <link rel="stylesheet" href="index.css">
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
 </head>
 
+
 <body>
 
+    <div class="container">
 
-    <h1 class="heading">Web bage design</h1>
-    <!--this is the name of the page.-->
 
-    <h2 class="heading2">تصميم المواقع</h2>
-    <p>Hier können Sie gerne eine <span style="color: crimson;">Webseite</span> machen
-     <br> Wir können Ihnen gerne helfen
-     <br>Wenn man eine <b class="f3">Webseite</b> braucht,kann gerne Hier finden.</p>
+
+        <div class="name text-center">
+            <h1 class="heading">Web bage design</h1>
+            <!--this is the name of the page.-->
+
+            <h2 class="heading2">تصميم المواقع</h2>
+            <p class="start">Hier können Sie gerne eine <span style="color: crimson;">Webseite</span> machen
+                <br> Wir können Ihnen gerne helfen
+                <br>Wenn man eine <b class="f3">Webseite</b> braucht,kann gerne Hier finden.</p>
+        </div>
         <!-- br تفصل الكلام بمرتبة سطر-->
         <!--span امكانية اعداد ستايل كلمة-->
         <!-- b=bold مميزة -->
-                <!--strong => Bold => Important Text نص مميز و مهمم-->
+        <!--strong => Bold => Important Text نص مميز و مهمم-->
 
-                    <a class="f1" href="https://github.com/mohamadanasfattoum" target="_blank" title="Go to Github"> visit My Github-Website <br> </a>
-                    <!-- link von einer Seite -->
+        <div class="card shadow border">
+
+            <img src="img/webdesign1.jpg" class="card-img img-fluid" alt="">
+            <!--style="background-color: red;" -->
+        
+            <a class="f1" href="https://github.com/mohamadanasfattoum" target="_blank" title="Go to Github"> visit My
+                Github-Website <br> </a>
+        </div>
+
+        <section>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div>
+                        <ul id="f3"> Die Sprachen von Webseite Entwicklung
+                            <li>html</li>
+                            <li>css</li>
+                            <li>js</li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <ol> Die Seiten
+                            <li>webdesign</li>
+                            <li>grafikdesign</li>
+                            <li>...</li>
+                            <li>..</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div>
+                        <dl>
+                            <li>.....</li>
+                            <li>....</li>
+                            <li>...</li>
+                            <li>..</li>
+                        </dl>
+                        <!--
+                            reversed => Reverse The Ordering
+                            start => Start From Position
+                            type => Type Of Ordering
+                            -->
+                        <dl>
+                            <dt>Html</dt>
+                            <dd>Die Sprache von der Äußere Sicht</dd>
+                        </dl>
+                    </div>
+                </div>
+                
+               
+                
+            
+                <hr>
+                <!-- خط فاصل -->
+            
+            
+                <!-- tabl eجدول -->
+                <table>
+                    <caption class="f1"> Die Kunden </caption>
+                    <thead>
+                        <tr>
+                            <th>Vor-</th>
+                            <th>Nachname</th>
+                            <th>LD</th>
+                        </tr>
+                    </thead>
+                    <!-- راس الجدول -->
+                    <tbody></tbody>
+                    <tr>
+                        <td>Mohamad</td>
+                        <td>Ali</td>
+                        <td>DE</td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td>......</td>
+                        </tr>
+                    </tfoot>
+            
+            
+            
+            
+                </table>
+                <hr>
+            </div>
+        </section>
+
+    </div>
+
+
    
 
-
-    <a class="f2" href="mailto:samaanas30@gmail.com" target="_blank" title="my Mail"> contact <span class="f3">me</span>  </a>
-    <!-- رابط موق مع اظهار الشرح مع فتح بصفحة منفردة
-            f2 اللون 
-            كلاس اشارة اللون في css -->
-
-            
-
-    <img src="webdesign1.jpg" alt="">
-    <!--style="background-color: red;" -->
-
-
-    <ul id="f3"> Die Sprachen von Webseite Entwicklung
-        <li>html</li>
-        <li>css</li>
-        <li>js</li>
-        <li></li>
-    </ul>
-    <ol> Die Seiten
-        <li>webdesign</li>
-        <li>grafikdesign</li>
-        <li>...</li>
-        <li>..</li>
-    </ol>
-    <dl>
-        <li>.....</li>
-        <li>....</li>
-        <li>...</li>
-        <li>..</li>
-    </dl>
-    <!--
-        reversed => Reverse The Ordering
-        start => Start From Position
-        type => Type Of Ordering
-        -->
-    <dl>
-        <dt>Html</dt>
-        <dd>Die Sprache von der Äußere Sicht</dd>
-    </dl>
-                
-            <hr>
-            <!-- خط فاصل -->
-
-
-    <!-- tabl eجدول -->
-    <table>
-        <caption class="f1"> Die Kunden </caption>
-        <thead>
-            <tr>
-                <th>Vor-</th>
-                <th>Nachname</th>
-                <th>LD</th>
-            </tr>
-        </thead>
-        <!-- راس الجدول -->
-        <tbody></tbody>
-        <tr>
-            <td>Mohamad</td>
-            <td>Ali</td>
-            <td>DE</td>
-        </tr>
-        <tfoot>
-            <tr>
-                <td>......</td>
-            </tr>
-        </tfoot>
-
-
-
-
-    </table>
-        <hr>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
