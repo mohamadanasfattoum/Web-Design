@@ -18,37 +18,39 @@
 
 
 <body>
-
-    <div class="container">
-        <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <a class="navbar-brand" href="#">Navbar</a>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link disabled">Disabled</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
+    <div class="mynav">
+        <div class="container">
+            <nav class="navbar fixed-top navbar-expand-lg ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="navbar-brand mx-5 px-5" href="#">Anas</a>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled">Disabled</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
                 </div>
-            </div>
-        </nav>
-
-
+            </nav>
+        </div>
+    </div>
+    
+    <div class="mynav pb-5 mb-5">
         <div class="name text-center py-5 my-5">
             <h1 class="heading">Web bage design</h1>
             <!--this is the name of the page.-->
@@ -63,100 +65,109 @@
         <!-- b=bold مميزة -->
         <!--strong => Bold => Important Text نص مميز و مهمم-->
 
-        <div class="mycard shadow text-center">
-            <div><img src="img/webdesign1.jpg" class="card-img img-fluid" alt=""></div>
-            
-            <!--style="background-color: red;" -->
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                <div class="mycard shadow text-center">
 
-            <a class="f1" href="https://github.com/mohamadanasfattoum" class="f1"   title=""> visit My
-                Github-Website </a>
+                    <img src="img/webdesign1.jpg" class="card-img img-fluid" alt="">
 
+                    <span class="botm border p-5">
 
+                    </span>
+                </div>
+
+            </div>
         </div>
+        <div class="col-lg-4"></div>
 
-        <section class="py-5 my-5">
-            <div class="row">
-                <div class="col-lg-4">
-                    <div>
-                        <ul id="f3"> Die Sprachen von Webseite Entwicklung
-                            <li>html</li>
-                            <li>css</li>
-                            <li>js</li>
-                            <li></li>
-                        </ul>
-                    </div>
+    </div>
+
+
+
+    <section class="py-5 my-5">
+        <div class="row">
+            <div class="col-lg-4">
+                <div>
+                    <ul id="f3"> Die Sprachen von Webseite Entwicklung
+                        <li>html</li>
+                        <li>css</li>
+                        <li>js</li>
+                        <li></li>
+                    </ul>
                 </div>
-                <div class="col-lg-4">
-                    <div>
-                        <ol> Die Seiten
-                            <li>webdesign</li>
-                            <li>grafikdesign</li>
-                            <li>...</li>
-                            <li>..</li>
-                        </ol>
-                    </div>
+            </div>
+            <div class="col-lg-4">
+                <div>
+                    <ol> Die Seiten
+                        <li>webdesign</li>
+                        <li>grafikdesign</li>
+                        <li>...</li>
+                        <li>..</li>
+                    </ol>
                 </div>
-                <div class="col-lg-4">
-                    <div>
-                        <dl>
-                            <li>.....</li>
-                            <li>....</li>
-                            <li>...</li>
-                            <li>..</li>
-                        </dl>
-                        <!--
+            </div>
+            <div class="col-lg-4">
+                <div>
+                    <dl>
+                        <li>.....</li>
+                        <li>....</li>
+                        <li>...</li>
+                        <li>..</li>
+                    </dl>
+                    <!--
                             reversed => Reverse The Ordering
                             start => Start From Position
                             type => Type Of Ordering
                             -->
-                        
-                    </div>
+
                 </div>
-
-
-
-
-                <hr>
-                <!-- خط فاصل -->
-
-
-                <!-- tabl eجدول -->
-                <div class="tabl py-5 my-5">
-                    <dl>
-                        <dt>Html</dt>
-                        <dd>Die Sprache von dem WebseiteKörper </dd>
-                    </dl>
-
-                    <table>
-                        <caption class="f1"> Die Kunden </caption>
-                        <thead>
-                            <tr>
-                                <th>Vor-</th>
-                                <th>Nachname</th>
-                                <th>LD</th>
-                            </tr>
-                        </thead>
-                        <!-- راس الجدول -->
-                        <tbody></tbody>
-                        <tr>
-                            <td>Mohamad</td>
-                            <td>Ali</td>
-                            <td>DE</td>
-                        </tr>
-                        <tfoot>
-                            <tr>
-                                <td>......</td>
-                            </tr>
-                        </tfoot>
-    
-    
-    
-    
-                    </table>
-                </div>
-                <hr>
             </div>
-        </section>
+
+
+
+
+            <hr>
+            <!-- خط فاصل -->
+
+
+            <!-- tabl eجدول -->
+            <div class="tabl py-5 my-5">
+                <dl>
+                    <dt>Html</dt>
+                    <dd>Die Sprache von dem WebseiteKörper </dd>
+                </dl>
+
+                <table>
+                    <caption class="f1"> Die Kunden </caption>
+                    <thead>
+                        <tr>
+                            <th>Vor-</th>
+                            <th>Nachname</th>
+                            <th>LD</th>
+                        </tr>
+                    </thead>
+                    <!-- راس الجدول -->
+                    <tbody></tbody>
+                    <tr>
+                        <td>Mohamad</td>
+                        <td>Ali</td>
+                        <td>DE</td>
+                    </tr>
+                    <tfoot>
+                        <tr>
+                            <td>......</td>
+                        </tr>
+                    </tfoot>
+
+
+
+
+                </table>
+            </div>
+            <hr>
+        </div>
+    </section>
 
     </div>
 

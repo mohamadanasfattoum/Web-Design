@@ -1,6 +1,14 @@
 
 body{font-family: 'Poppins', sans-serif;}
+.mynav{
+    background-color: whitesmoke;
+}
+.navbar{
+    background-color: whitesmoke;
+}
+
 p{color:black;}
+
 .heading{ text-align: center; color: black;}
 .heading2{ text-align: center; color: black;}
 .name{background: whitesmoke;}
